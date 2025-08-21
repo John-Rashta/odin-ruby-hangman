@@ -1,1 +1,1 @@
-# odin-ruby-hangman
+Project 7 for Ruby Odin Project.  
