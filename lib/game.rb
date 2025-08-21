@@ -22,8 +22,9 @@ class Game
       display_saves(all_entries)
       save_index = ask_save(all_entries.size)
       load_game(save_index == -1 ? all_entries.size - 1 : save_index)
+    else
+      new_word
     end
-    new_word
     play_game
   end
 
